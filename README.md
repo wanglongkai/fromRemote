@@ -29,7 +29,8 @@ git相关操作记录
 如果时git clone的项目：可以直接使用 `git pull origin`
 
 ## 暂存区回退到工作区
-`git reset HEAD <file>` 将file从暂存区回退到工作空间
+`git reset HEAD <file>` 将file从暂存区回退到工作空间    
+`git reset` 简写，回滚暂存区的所有添加
     
 
 ## 取消本次修改(还没有进入暂存区的修改)
@@ -37,3 +38,5 @@ git相关操作记录
 
 ## 覆盖上次的commit
 `git commit --amend -m "message"` 覆盖掉上一次的commit信息
+
+## 回退到指定版本(commit-id)
