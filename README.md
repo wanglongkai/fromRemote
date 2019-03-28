@@ -9,3 +9,7 @@ git相关操作记录
 3. 正式进行关联和推送
 	1. 关联远程库： git remote add origin git@server-name:path/repo-name.git
 	2. 推送本地仓库内容 ：git push -u origin master
+
+
+
+我就是想试试
