@@ -15,9 +15,11 @@ git相关操作记录
 1. 工作目录--->暂存区 ：`git add .`
 2. 暂存区  --->本地仓库 ： `git commit -m "some commit info"`
 3. 本地仓库--->远程仓库 ： `git push origin 分支名`
+
 **注意事项：** 
 1. push到远程前要先pull远程数据
 2. 若有冲突需先解决冲突
-3. 然后再次提交
-4. 最后push
+3. 然后再次提交(add和commit)
+4. 最后push(如果push到master分支，可以简写为`git push`)    
+    
 
