@@ -27,5 +27,8 @@ git相关操作记录
 **完整语法**：git pull 远程主机名 远程分支名:本地分支名    
 **举例**：`git pull origin wlk:main`  &nbsp;&nbsp;&nbsp;&nbsp; 取回远程origin主机的wlk分支与本地的main分支合并。  
 如果时git clone的项目：可以直接使用 `git pull origin`
+
+## 暂存区回退到工作区
+`git reset HEAD <file>` 将file从暂存区回退到工作空间
     
 
