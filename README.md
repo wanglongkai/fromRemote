@@ -20,6 +20,11 @@ git相关操作记录
 1. push到远程前要先pull远程数据
 2. 若有冲突需先解决冲突
 3. 然后再次提交(add和commit)
-4. 最后push(如果push到master分支，可以简写为`git push`)    
+4. 最后push(如果push到master分支，可以简写为`git push`)  
+
+## git pull命令
+作用：取回远程仓库某个分支的更新，并与本地某个分支合并。    
+完整语法：git pull 远程主机名 远程分支名:本地分支名    
+举例：git pull origin wlk:main  &nbsp;&nbsp;&nbsp;&nbsp; 取回远程origin主机的wlk分支与本地的main分支合并。  
     
 
