@@ -34,3 +34,6 @@ git相关操作记录
 
 ## 取消本次修改(还没有进入暂存区的修改)
 `git checkout -- <file>` 将工作空间的还没有add的修改取消掉
+
+## 覆盖上次的commit
+`git commit --amend -m "message"` 覆盖掉上一次的commit信息
