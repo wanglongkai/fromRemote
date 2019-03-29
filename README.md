@@ -30,7 +30,6 @@ git相关操作记录
 **作用**：取回远程仓库某个分支的更新，并与本地某个分支合并。    
 **完整语法**：git pull 远程主机名 远程分支名:本地分支名    
 **举例**：`git pull origin wlk:main`  &nbsp;&nbsp;&nbsp;&nbsp; 取回远程origin主机的wlk分支与本地的main分支合并。  
-如果时git clone的项目：可以直接使用 `git pull origin`
 <br/><br/>  
 
 
@@ -67,7 +66,8 @@ git相关操作记录
 4. 查看分支：`git branch`
 5. 合并分支：`git merge 分支名` ---> 合并其他分支到当前分支
 6. 删除分支 ： `git branch -d 分支名`
-7. 删除远程分支 ： `git push origin -d 分支名`
+7. 删除远程分支 ： `git push origin -d 分支名`    
+8. 拉取远程分支(本地不存在的分支) : `git checkout -b 本地分支名 origin/远程分支名`
 <br/><br/>
 
 ## 合并冲突
