@@ -77,4 +77,17 @@ git相关操作记录
 其他分支提交或当前分支其他人的提交   
 >>>>>其他commit-id
 ```
+<br/><br/>
+
+
+## 标签操作
+1. 切换到目标分支上
+2. 执行`git tag 标签名`
+**在指定commit-id上打标签** : `git tag 标签名 commit-id`    
+**指定标签信息** ： `git tag -a 标签名 -m "message"`    
+    
+命令 `git push origin 标签名` 可以推送一个本地标签；    
+命令 `git push origin --tags` 可以推送全部未推送过的本地标签；    
+命令 `git tag -d 标签名` 可以删除一个本地标签；    
+命令 `git push origin :refs/tags/标签名` 可以删除一个远程标签。  
 
