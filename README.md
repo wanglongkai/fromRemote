@@ -82,7 +82,7 @@ git相关操作记录
 
 ## 标签操作
 1. 切换到目标分支上
-2. 执行`git tag 标签名`
+2. 执行`git tag 标签名`   
 **在指定commit-id上打标签** : `git tag 标签名 commit-id`    
 **指定标签信息** ： `git tag -a 标签名 -m "message"`    
     
