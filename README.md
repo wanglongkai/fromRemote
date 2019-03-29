@@ -84,7 +84,7 @@ git相关操作记录
 1. 切换到目标分支上
 2. 执行`git tag 标签名`   
 **在指定commit-id上打标签** : `git tag 标签名 commit-id`    
-**指定标签信息** ： `git tag -a 标签名 -m "message"`    
+**打指定并标签信息** ： `git tag -a 标签名 -m "message" commit-id`    
     
 命令 `git push origin 标签名` 可以推送一个本地标签；    
 命令 `git push origin --tags` 可以推送全部未推送过的本地标签；    
