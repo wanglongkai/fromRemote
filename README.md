@@ -44,7 +44,7 @@ git相关操作记录
 <br/><br/>
 
 
-## 覆盖上次的commit
+## 覆盖上次的committ
 `git commit --amend -m "message"` 覆盖掉上一次的commit信息
 <br/><br/>
 
@@ -66,3 +66,4 @@ git相关操作记录
 4. 查看分支：`git branch`
 5. 合并分支：`git merge 分支名` ---> 合并其他分支到当前分支
 6. 删除分支 ： `git branch -d 分支名`
+7. 删除远程分支 ： `git push origin -d 分支名`
