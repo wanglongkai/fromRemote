@@ -60,7 +60,9 @@ git相关操作记录
 
 
 ## 分支操作
-1. 创建分支 ： `git branch 分支名`;
-2. 切换分支  :  `git checkout 分支名`;
-3. 创建并切换： `git checkout -b 分支名`;
-4. 分支信息：`git branch`;
+1. 创建分支 ： `git branch 分支名`
+2. 切换分支  :  `git checkout 分支名`
+3. 创建并切换： `git checkout -b 分支名`
+4. 查看分支：`git branch`
+5. 合并分支：`git merge 分支名` ---> 合并其他分支到当前分支
+6. 删除分支 ： `git branch -d 分支名`
