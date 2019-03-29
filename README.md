@@ -44,7 +44,7 @@ git相关操作记录
 <br/><br/>
 
 
-## 覆盖上次的commit
+## 覆盖上次的commitd
 `git commit --amend -m "message"` 覆盖掉上一次的commit信息
 <br/><br/>
 
