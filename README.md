@@ -41,8 +41,8 @@ git相关操作记录
 
 ## 回退到指定版本(commit-id)
 回退到上一个版本：`git reset --hard HEAD^`    
-回退到上三个版本：`git reset --hard HEAD^^^`
+回退到上三个版本：`git reset --hard HEAD^^^`    
 回退到指定版本：`git reset --hard commit-id`    
-**注意**
-1.版本回退时，若工作区和暂存区有未提交的修改，会被撤销掉。这点要**特别注意**。
+**注意**    
+1.版本回退时，若工作区和暂存区有未提交的修改，会被撤销掉。这点要**特别注意**    
 2.若回退后，再想恢复，可用 `git reflog` 查看历史命令，找到相关commit-id，再次reset。
