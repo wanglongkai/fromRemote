@@ -92,3 +92,17 @@ git相关操作记录
 命令 `git tag -d 标签名` 可以删除一个本地标签；    
 命令 `git push origin :refs/tags/标签名` 可以删除一个远程标签。  
 
+
+##  强制获取远程最新版本
+```git
+	git fetch --all
+	git reset --hard origin/分支名
+	git pull
+```
+
+## 强制推送本地代码
+```
+git push -f origin 分支名
+```
+
+
