@@ -91,14 +91,16 @@ git相关操作记录
 命令 `git push origin --tags` 可以推送全部未推送过的本地标签；    
 命令 `git tag -d 标签名` 可以删除一个本地标签；    
 命令 `git push origin :refs/tags/标签名` 可以删除一个远程标签。  
+<br/><br/>
 
 
 ##  强制获取远程最新版本
-```git
-	git fetch --all
-	git reset --hard origin/分支名
-	git pull
 ```
+git fetch --all
+git reset --hard origin/分支名
+git pull
+```
+<br/><br/>
 
 ## 强制推送本地代码
 ```
